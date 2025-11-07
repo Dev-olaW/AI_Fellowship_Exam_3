@@ -38,3 +38,11 @@ This completed the preprocessing stage, ensuring that the dataset was clean, con
  2. Model Performance Metrics
 To evaluate the performance of the model, several metrics such as accuracy, precision, recall, and the F1-score were analyzed. These metrics provide a comprehensive understanding of how well the model distinguishes between different wine quality categories  specifically, whether a wine is classified as good or bad based on its physicochemical properties.
 Based on the model’s evaluation metrics, it was observed that the precision for good wine was relatively higher than that of bad wine. This indicates that the model is more confident and accurate when predicting good-quality wines, meaning that when it classifies a wine as good, it is more likely to be correct.
+The model’s evaluation metrics: accuracy, precision, recall, and F1-score  were used to assess its ability to classify wine quality as either good or bad.
+The results show that the model achieved higher precision for good wine, meaning it is more accurate when predicting wines as good. This indicates strong confidence in identifying high-quality wines correctly. However, the precision for bad wine was slightly lower, suggesting occasional misclassifications of good wines as bad.
+Overall, the model performs better for good-quality wines, while showing room for improvement in detecting bad wines. The balanced F1-score demonstrates that the model generalizes fairly well but could benefit from further optimization, such as rebalancing the dataset or fine-tuning hyperparameters.
+
+3. Highlight which features most influence wine quality(based on model feature importance or coefficients)
+The analysis revealed that alcohol content, volatile acidity, and sulphates are the most influential features affecting wine quality. Higher alcohol levels and sulphate concentrations generally correlate with better-quality wines, while higher volatile acidity tends to reduce wine quality. Other features such as citric acid, density, and residual sugar also show moderate influence but to a lesser extent.
+
+4. 
